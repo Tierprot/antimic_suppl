@@ -6,7 +6,7 @@ ESM-1b model https://github.com/facebookresearch/esm) to distinguish potential a
 Fine-tuning was done via implementing MLP (multilayer perceptron) and Light Attenintion (https://github.com/HannesStark/protein-localization) based model which receives 
 a hidden representation from the pre-trained BERT-like model as input. 
 
-Both models (MLP-based ans LA-based) were trained in google colab, the code itself represents python notebooks 
-and is located  a ipynb files. 
+Both models (MLP-based ans LA-based) were trained in Google Colab (https://colab.research.google.com/), the code itself represents python notebooks 
+and is located in a corresponding ipynb files. 
 
-Source data files are localed in the data folder. 
+Antimicrobial training/ benchmark data files were taken from (https://github.com/onkarS23/CoAMPpred) and are localed in the data folder. 
